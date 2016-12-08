@@ -1,5 +1,9 @@
 function keyDeleter(obj) {
     // your code here
+    delete obj.foo;
+    delete obj.bar;
+    return obj;
+
 }
 
 
